@@ -7,3 +7,6 @@ service displayfeature-hal-1-0 /vendor/bin/hw/vendor.xiaomi.hardware.displayfeat
     user system
     group system graphics
     onrestart restart displayfeature
+
+on boot
+    chown system system /sys/devices/virtual/graphics/fb0/hist_event

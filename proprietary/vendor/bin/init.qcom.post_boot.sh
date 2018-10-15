@@ -2750,6 +2750,14 @@ case "$target" in
         echo 0 > /sys/module/lpm_levels/parameters/sleep_disabled
 	echo 100 > /proc/sys/vm/swappiness
 	echo 120 > /proc/sys/vm/watermark_scale_factor
+
+	# set lmk minfree for MemTotal greater than 6G
+	arch_type=`uname -m`
+	MemTotalStr=`cat /proc/meminfo | grep MemTotal`
+	MemTotal=${MemTotalStr:16:8}
+	if [ "$arch_type" == "aarch64" ] && [ $MemTotal -gt 5505024 ]; then
+	    echo "18432,23040,27648,32256,85296,120640" > /sys/module/lowmemorykiller/parameters/minfree
+	fi
     ;;
 esac
 
