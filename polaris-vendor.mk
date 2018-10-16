@@ -232,8 +232,15 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/polaris/proprietary/vendor/etc/sensors/config/sns_rotv.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_rotv.json \
     vendor/xiaomi/polaris/proprietary/vendor/etc/sensors/config/sns_smd.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_smd.json \
     vendor/xiaomi/polaris/proprietary/vendor/etc/sensors/hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/hals.conf \
+    vendor/xiaomi/polaris/proprietary/vendor/etc/thermal-engine-sdm845-camera.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-sdm845-camera.conf \
+    vendor/xiaomi/polaris/proprietary/vendor/etc/thermal-engine-sdm845-class0.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-sdm845-class0.conf \
     vendor/xiaomi/polaris/proprietary/vendor/etc/thermal-engine-sdm845-high.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-sdm845-high.conf \
     vendor/xiaomi/polaris/proprietary/vendor/etc/thermal-engine-sdm845-map.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-sdm845-map.conf \
+    vendor/xiaomi/polaris/proprietary/vendor/etc/thermal-engine-sdm845-nolimits.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-sdm845-nolimits.conf \
+    vendor/xiaomi/polaris/proprietary/vendor/etc/thermal-engine-sdm845-phone.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-sdm845-phone.conf \
+    vendor/xiaomi/polaris/proprietary/vendor/etc/thermal-engine-sdm845-pubgmhd.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-sdm845-pubgmhd.conf \
+    vendor/xiaomi/polaris/proprietary/vendor/etc/thermal-engine-sdm845-sgame.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-sdm845-sgame.conf \
+    vendor/xiaomi/polaris/proprietary/vendor/etc/thermal-engine-sdm845.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-sdm845.conf \
     vendor/xiaomi/polaris/proprietary/vendor/etc/thermal-engine.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine.conf \
     vendor/xiaomi/polaris/proprietary/vendor/firmware/CAMERA_ICP.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.elf \
     vendor/xiaomi/polaris/proprietary/vendor/firmware/a630_gmu.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/a630_gmu.bin \
